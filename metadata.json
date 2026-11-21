@@ -1,0 +1,6 @@
+{
+  "name": "Campus Lab Finder - Natton SkillX Junior",
+  "description": "Automated School Computer Lab Verification, Google Contact Enrichment, Industry-Specific Business Intelligence, Priority Targeting & DPR Suite.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

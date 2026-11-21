@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.brand-page {
+  background:
+    radial-gradient(at 0 0, #36c5e41a 0, transparent 48%),
+    radial-gradient(at 100% 60%, #2ac8ac14 0, transparent 42%),
+    linear-gradient(150deg, #f1faff 0%, #f7fcfc 58%, #fff8f2 100%);
+  min-height: 100vh;
+}
+
+.brand-login {
+  background:
+    radial-gradient(at 15% 10%, #36c5e440 0, transparent 48%),
+    radial-gradient(at 90% 85%, #2ac8ac2e 0, transparent 40%),
+    linear-gradient(135deg, #050d30 0%, #101e60 55%, #104c66 100%);
+  min-height: 100vh;
+}
+
+.brand-header {
+  border-top: 3px solid transparent;
+  border-image: linear-gradient(90deg, #081342 35%, #36c5e4 65%, #2ac8ac 82%, #ff703b 100%) 1;
+}
+
+.brand-logo {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px #0813420f;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
